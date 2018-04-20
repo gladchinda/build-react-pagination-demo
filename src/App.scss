@@ -1,0 +1,50 @@
+$base-color: #ced4da;
+$light-background: lighten(desaturate($base-color, 50%), 12.5%);
+
+.current-page {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.country-card-container {
+    height: 60px;
+    cursor: pointer;
+}
+
+.country-name {
+    font-size: 0.9rem;
+}
+
+.country-region {
+    font-size: 0.7rem;
+}
+
+.country-page, .country-name, .country-region {
+    line-height: 1;
+}
+
+ul.pagination {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    li.page-item.active {
+        a.page-link {
+            color: saturate(darken($base-color, 50%), 5%) !important;
+            background-color: saturate(lighten($base-color, 7.5%), 2.5%) !important;
+            border-color: $base-color !important;
+        }
+    }
+    a.page-link {
+        padding: 0.75rem 1rem;
+        min-width: 3.5rem;
+        text-align: center;
+        box-shadow: none !important;
+        border-color: $base-color !important;
+        color: saturate(darken($base-color, 30%), 10%);
+        font-weight: 900;
+        font-size: 1rem;
+        &:hover {
+            background-color: $light-background;
+        }
+    }
+}
