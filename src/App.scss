@@ -1,6 +1,5 @@
 $base-color: #ced4da;
 $light-background: lighten(desaturate($base-color, 50%), 12.5%);
-
 .current-page {
     font-size: 1.5rem;
     vertical-align: middle;
@@ -9,6 +8,8 @@ $light-background: lighten(desaturate($base-color, 50%), 12.5%);
 .country-card-container {
     height: 60px;
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
 }
 
 .country-name {
@@ -19,7 +20,9 @@ $light-background: lighten(desaturate($base-color, 50%), 12.5%);
     font-size: 0.7rem;
 }
 
-.country-page, .country-name, .country-region {
+.country-page,
+.country-name,
+.country-region {
     line-height: 1;
 }
 

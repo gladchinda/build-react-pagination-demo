@@ -9,7 +9,7 @@ class CountryCard extends Component {
 
     return (
       <Fragment>
-        <div className="col-md-4 country-card">
+        <div className="col-sm-6 col-md-4 country-card">
           <div className="country-card-container border-gray rounded border mx-2 my-3 d-flex flex-row align-items-center p-0 bg-light">
             <div className="h-100 position-relative border-gray border-right px-2 bg-white rounded-left">
               <Flag country={code2} format="png" pngSize={64} basePath="./img/flags" className="d-block h-100" />

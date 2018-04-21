@@ -4,7 +4,9 @@
 
 .country-card-container {
   height: 60px;
-  cursor: pointer; }
+  cursor: pointer;
+  position: relative;
+  overflow: hidden; }
 
 .country-name {
   font-size: 0.9rem; }
@@ -12,7 +14,9 @@
 .country-region {
   font-size: 0.7rem; }
 
-.country-page, .country-name, .country-region {
+.country-page,
+.country-name,
+.country-region {
   line-height: 1; }
 
 ul.pagination {

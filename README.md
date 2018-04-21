@@ -1,8 +1,10 @@
 # Building Pagination (React) Demo Code
 
-[![Edit password-strength-react](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/8kkrpy7260)
-
 This project contains a demo source code showing how to build a custom pagination component in a [React][react] application. Prior experience working with the React framework is required for complete understanding of the demo code. You can checkout the [docs][react-docs] to learn more about React.
+
+Here is a screenshot of the demo React application:
+
+![Demo Application](https://i.imgur.com/GiLPQag.png)
 
 Before you begin, make sure you have [`npm`][npm] and [`node`][node] installed on your system. It is recommended that you use [`yarn`][yarn] instead of `npm` to run and manage the package. Follow this [guide to install yarn][yarn-install] on your system.
 
@@ -26,10 +28,12 @@ yarn start
 
 You can also get a [live demo on Code Sandbox][code-demo].
 
+[![Edit l29rokm9rm](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/l29rokm9rm?hidenavigation=1&view=preview)
+
 
 [react-docs]: https://reactjs.org/docs/
 [react]: https://reactjs.org/
-[code-demo]: https://codesandbox.io/s/8kkrpy7260
+[code-demo]: https://codesandbox.io/s/l29rokm9rm
 [node]: https://nodejs.org/en/
 [npm]: https://npmjs.com/
 [yarn]: https://yarnpkg.com/
