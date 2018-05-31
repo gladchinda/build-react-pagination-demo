@@ -4,7 +4,7 @@ This project contains a demo source code showing how to build a custom paginatio
 
 Here is a screenshot of the demo React application:
 
-![Demo Application](https://i.imgur.com/GiLPQag.png)
+![Demo Application](https://i.imgur.com/JID5WGR.gif)
 
 Before you begin, make sure you have [`npm`][npm] and [`node`][node] installed on your system. It is recommended that you use [`yarn`][yarn] instead of `npm` to run and manage the package. Follow this [guide to install yarn][yarn-install] on your system.
 
