@@ -1,5 +1,7 @@
 # Building Pagination (React) Demo
 
+**You can checkout the full article on Scotch: [Build Custom Pagination with React](https://scotch.io/tutorials/build-custom-pagination-with-react).**
+
 This project contains a demo source code showing how to build a custom pagination component in a [React][react] application. Prior experience working with the React framework is required for complete understanding of the demo code. You can checkout the [docs][react-docs] to learn more about React.
 
 Here is a screenshot of the demo React application:
